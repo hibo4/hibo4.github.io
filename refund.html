@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="robots" content="noindex,nofollow">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <title>karga LLC - Refund Policies</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+</head>
+
+<body class="main-layout">
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <div class="wrapper">
+      <div id="content">
+         <header>
+            <div class="header">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <ul class="btn">
+                           <li><a href="about_us.html#">About Us</a></li>
+                           <li><a href="about_us.html#website">Services</a></li>
+                           <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <div id="about" class="about">
+            <div class="container-fluid">
+               <div class="row d_flex">
+                  <div class="col-md-5">
+                  </div>
+                  <div class="col-md-7">
+                     <div class="titlepage">
+
+                        <h2>Refund Policy</h2>
+                        <p>Thanks for purchasing our products (or subscribing to our services) at https://karga.tech
+                           operated by
+                           karga LLC.</p>
+                        <p>We offer a full money-back guarantee for all purchases made on our website. If you are not
+                           satisfied with the product that you have purchased from us, you can get your money back. You
+                           are eligible for a full reimbursement within 14 calendar days of your
+                           purchase.</p>
+                        <p>After the 14-day period you will no longer be eligible and won't be able to receive a refund.
+                           We
+                           encourage our customers to try the product (or service) in the first two weeks after their
+                           purchase to ensure it fits your needs.</p>
+                        <p>If you have any additional questions or would like to request a refund, feel free to contact
+                           us via E-mail: office@karga.tech</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-md-8 col-sm-6">
+                              <div class="address">
+                                 <h3>About Us </h3>
+                              </div>
+                              <ul class="location_icon">
+                                 <li>Karga LLC </li>
+                                 <li>8 The Green STE R, Dover, DE 19901, USA</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-6">
+                        <div class="address">
+                           <ul class="Menu_footer">
+                              <li><a href="/">Home</a></li>
+                              <li><a href="index.html#about">Team</a> </li>
+                              <li><a href="/privacy.html">Privacy Policy</a> </li>
+                              <li><a href="/refund.html">Refund Policy</a> </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p>Copyright <i id="year">2023</i> All Right Reserved By karga LLC</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function () {
+            $("#year").html(new Date().getFullYear());
+            $(".easy li").click(function (e) {
+               e.preventDefault();
+               $(".choose_box").hide();
+
+               $("#" + $(this).data('target')).show();
+
+               $(".easy li").removeClass('active');
+               $(this).addClass('active');
+            });
+         });
+      </script>
+</body>
+
+</html>
